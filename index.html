@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    border: 1px solid #ccc;
+    width: 600px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the container */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /*border: 1px solid #000; Removed border for image */
+    padding: 0px; /*Removed padding*/
+    margin-right: 5px;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Keeps aspect ratio */
+}
+
+.header-right {
+    font-size: 14px;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-title h1 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.page-title p {
+    font-size: 14px;
+    color: #666;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+.split-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+.image-placeholder {
+    /*background-color: #cce5ff;  Removed background for image*/
+    padding: 0px; /*Removed padding*/
+    margin-bottom: 0;
+    height: 150px; /* Set a fixed height for image placeholder */
+    display: flex; /* Center image vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Important: Maintains aspect ratio */
+}
+
+.image-placeholder strong {
+    color: #007bff;
+    font-size: 16px;
+}
+
+.card-title {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.card-description {
+    padding: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+    color: #777;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="header-left">
+            <div class="logo">
+                <img src="https://cdnmedia.webthethao.vn/thumb/720-405/uploads/img/files/images/fullsize/2019/04/18/riot-games-tien-hanh-thay-doi-logo-sau-10-nam-ton-tai.png" alt="Logo">
+            </div>
+            <span>Riot Games</span>
+        </div>
+        <div class="header-right">
+            Thanh điều hướng với bảng chọn
+        </div>
+    </div>
+
+    <div class="page-title">
+        <h1>Ngô Nguyễn Đức Hiếu 12A9</h1>
+        <p>2007,Lâm Đồng</p>
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <div class="split-card">
+                <div class="image-placeholder">
+                    <img src="https://i.pinimg.com/originals/90/70/32/9070324cdfc07c68d60eed0c39e77573.gif" alt="Image 1">
+                </div>
+                <div class="card-title">
+                    Các môn học bắt buộc
+                </div>
+                <div class="card-description">
+ Môn Văn:
+
+Văn học mở ra cánh cửa tâm hồn, đưa ta lạc vào thế giới của những cảm xúc và suy tư. Qua từng trang sách, ta được gặp gỡ những nhân vật sống động, trải nghiệm những cuộc đời khác nhau, và khám phá vẻ đẹp của ngôn ngữ. Văn chương không chỉ là những câu chuyện kể, mà còn là bài học về nhân sinh, về cách sống và yêu thương. Môn Văn giúp ta rèn luyện khả năng diễn đạt, tư duy logic, và cảm thụ cái đẹp. Nó bồi dưỡng tâm hồn, giúp ta trở thành những con người giàu lòng trắc ẩn và biết yêu thương cuộc sống.
+                </div>
+                <div class="card-description">
+Môn Toán:
+
+Toán học là ngôn ngữ của vũ trụ, một hệ thống logic hoàn hảo và chặt chẽ. Những con số và công thức khô khan lại ẩn chứa sức mạnh phi thường, giúp ta giải mã những bí ẩn của thế giới. Môn Toán rèn luyện tư duy logic, khả năng phân tích và giải quyết vấn đề. Nó dạy ta cách suy nghĩ một cách có hệ thống, từ những điều đơn giản đến những khái niệm phức tạp. Toán học không chỉ là những bài toán trên giấy, mà còn là công cụ giúp ta ứng dụng vào thực tế, từ việc tính toán chi tiêu hàng ngày đến việc xây dựng những công trình vĩ đại.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+             <div class="split-card">
+                <div class="image-placeholder">
+                    <img src="https://i.pinimg.com/originals/af/c5/cd/afc5cdc69c1408abff7a21c75ad53ba4.gif" alt="Image 2">
+                </div>
+                <div class="card-title">
+                  Các môn học tự chọn 
+                </div>
+                <div class="card-description">
+Môn Địa:
+
+Địa lý là bức tranh toàn cảnh về thế giới, từ những dãy núi hùng vĩ đến những dòng sông uốn lượn, từ những sa mạc khô cằn đến những khu rừng nhiệt đới xanh tươi. Môn Địa giúp ta hiểu về sự phân bố của tự nhiên, về sự đa dạng của văn hóa và xã hội loài người. Nó dạy ta cách nhìn nhận thế giới một cách tổng quan, về mối quan hệ giữa con người và môi trường. Địa lý không chỉ là những bản đồ và số liệu, mà còn là những chuyến phiêu lưu khám phá, giúp ta mở rộng tầm nhìn và hiểu rõ hơn về ngôi nhà chung của chúng ta.
+                </div>
+                <div class="card-description">
+Môn Tin:
+
+Tin học là chìa khóa mở ra thế giới công nghệ, một thế giới đang thay đổi chóng mặt từng ngày. Từ những dòng code khô khan đến những ứng dụng thông minh, môn Tin giúp ta làm chủ công nghệ, biến nó thành công cụ phục vụ cuộc sống. Tin học rèn luyện tư duy logic, khả năng sáng tạo và giải quyết vấn đề một cách hiệu quả. Nó dạy ta cách làm việc nhóm, cách thích nghi với những thay đổi nhanh chóng của công nghệ. Tin học không chỉ là những con số và thuật toán, mà còn là sức mạnh để tạo ra những điều mới mẻ, để kết nối và thay đổi thế giới.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        không được sao chép khi chưa được sự cho phép <br>
+        <a href="https://hoaian-beta.vercel.app/"> Hoài Ân </a> | <a href="https://truongson.vercel.app/"> Trường sơn  </a> | <a href="https://ktoa.vercel.app/"> k tỏa </a> | <a href="https://thien-sigma.vercel.app/"> Thiện </a> 
+    </div>
+
+</div>
+
+</body>
+</html>
